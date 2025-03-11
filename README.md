@@ -11,27 +11,27 @@ Deep Collocation Methods (DCM) are neural network-based approaches for solving d
 Solves the simple first-order ODE:
 
 \[
-\frac{dy}{dx} = y, \quad y(0) = 1.
+$\frac{dy}{dx} = y, \quad y(0) = 1$.
 \]
 
 The exact solution is:
 
 \[
-y(x) = e^x.
+$y(x) = e^x$.
 \]
 
 ### ✅ **Heat Equation (PDE)**
 Solves the one-dimensional **heat equation**:
 
 \[
-\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}, \quad x \in [0,1], \quad t \in [0,1].
+$\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}, \quad x \in [0,1], \quad t \in [0,1]$.
 \]
 
-with boundary conditions \( u(0,t) = u(1,t) = 0 \) and initial condition \( u(x,0) = \sin(\pi x) \).  
+with boundary conditions \( $u(0,t) = u(1,t) = 0$ \) and initial condition \( $u(x,0) = \sin(\pi x)$ \).  
 The exact solution is:
 
 \[
-u(x,t) = e^{-\alpha \pi^2 t} \sin(\pi x).
+$u(x,t) = e^{-\alpha \pi^2 t} \sin(\pi x)$.
 \]
 
 ## **🚀 Installation & Running**
